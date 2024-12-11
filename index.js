@@ -1,3 +1,1 @@
-export function sum(a, b) {
-    return a + b
-}
+console.log("This project is to practice testing!")
