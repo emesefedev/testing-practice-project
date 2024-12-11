@@ -1,0 +1,11 @@
+{
+  "name": "testing-practice-project",
+  "version": "1.0.0",
+  "description": "```   _____         _   _               |_   _|__  ___| |_(_)_ __   __ _     | |/ _ \\/ __| __| | '_ \\ / _` |    | |  __/\\__ \\ |_| | | | | (_| |    |_|\\___||___/\\__|_|_| |_|\\__, |                             |___/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
