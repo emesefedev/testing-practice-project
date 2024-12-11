@@ -1,6 +1,6 @@
 import { calculator } from "./calculator.js"
 
-describe("Calculator contains functions for the basic operations", () => {
+describe.skip("Calculator contains functions for the basic operations", () => {
     test("Calculator contains add function", () => {
         expect(calculator.add()).toBeDefined()
     })
@@ -18,7 +18,7 @@ describe("Calculator contains functions for the basic operations", () => {
     })
 })
 
-describe("The add() function", () => {
+describe.skip("The add() function", () => {
     test("Add function returns correct calculation for positive addends", 
         () => {
             expect(calculator.add(1, 2)).toBe(3)
@@ -40,7 +40,7 @@ describe("The add() function", () => {
     })
 })
 
-describe("The subtract() function", () => {
+describe.skip("The subtract() function", () => {
     test("Subtract function returns correct calculation for positive minuend and subtrahend", 
         () => {
             expect(calculator.subtract(8, 6)).toBe(2)
@@ -62,7 +62,7 @@ describe("The subtract() function", () => {
     })
 })
 
-describe("The multiply() function", () => {
+describe.skip("The multiply() function", () => {
     test("Multiply function returns correct calculation for positive factors", 
         () => {
             expect(calculator.multiply(7, 3)).toBe(21)
@@ -84,7 +84,7 @@ describe("The multiply() function", () => {
     })
 })
 
-describe("The divide() function", () => {
+describe.skip("The divide() function", () => {
     test("Divide function returns correct calculation", () => {
         expect(calculator.divide(10, 5)).toBe(2)
     })

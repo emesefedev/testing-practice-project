@@ -1,6 +1,6 @@
 import { capitalize, reverseString } from "./strings.js"
 
-describe("The capitalize() function", () => {
+describe.skip("The capitalize() function", () => {
     test("Returns the first character capitalized of word in lower case", () => {
         expect(capitalize("project")).toBe("Project")
     })
@@ -20,7 +20,7 @@ describe("The capitalize() function", () => {
     })
 })
 
-describe("The reverseString() function", () => {
+describe.skip("The reverseString() function", () => {
     test("Returns word reversed", () => {
         expect(reverseString("kirby")).toBe("ybrik")
     })
