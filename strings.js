@@ -4,3 +4,7 @@ export function capitalize(str) {
 
     return `${firstCharacter.toUpperCase()}${restOfString}`
 } 
+
+export function reverseString(str) {
+    return str.split("").reverse().join("")
+}
