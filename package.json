@@ -4,12 +4,15 @@
   "description": "```   _____         _   _               |_   _|__  ___| |_(_)_ __   __ _     | |/ _ \\/ __| __| | '_ \\ / _` |    | |  __/\\__ \\ |_| | | | | (_| |    |_|\\___||___/\\__|_|_| |_|\\__, |                             |___/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {}
   }
 }
