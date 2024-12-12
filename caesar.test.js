@@ -5,7 +5,7 @@ describe.skip("The divide() function", () => {
         expect(caesarCipher("xyz", 3)).toBe("abc")
     })
     
-    testg("Caesar Cipher with case preservation", () => {
+    test("Caesar Cipher with case preservation", () => {
         expect(caesarCipher("Xyz", 3)).toBe("Abc")
     })
     
